@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{citygrid}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Johnny Khai Nguyen"]
-  s.date = %q{2010-05-26}
+  s.date = %q{2010-06-27}
   s.description = %q{Ruby wrapper for the CityGrid API}
   s.email = %q{johnnyn@gmail.com}
   s.extra_rdoc_files = [
@@ -20,10 +20,12 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "VERSION",
+     "citygrid.gemspec",
      "init.rb",
      "install.rb",
      "lib/citygrid.rb",
      "lib/citygrid/client.rb",
+     "pkg/citygrid-0.1.0.gem",
      "tasks/citygrid_tasks.rake",
      "test/citygrid_test.rb",
      "test/test_helper.rb",
