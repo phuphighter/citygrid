@@ -11,23 +11,23 @@ module Citygrid
     end
 
     def search_locations(options={})
-      response = self.class.get("/search/locations", :query => options.merge(self.default_options))
+      mashup(self.class.get("/search/locations", :query => options.merge(self.default_options)))
     end
     
     def search_events(options={})
-      response = self.class.get("/search/events", :query => options.merge(self.default_options))
+      mashup(self.class.get("/search/events", :query => options.merge(self.default_options)))
     end
     
     def profile(options={})
       if options[:client_ip].nil?
         puts "Dude, a client_ip is required."
       else
-        response = self.class.get("/profile/", :query => options.merge(self.default_options))
+        mashup(self.class.get("/profile/", :query => options.merge(self.default_options)))
       end
     end
     
     def reviews(options={})
-      response = self.class.get("/reviews/", :query => options.merge(self.default_options))
+      mashup(self.class.get("/reviews/", :query => options.merge(self.default_options)))
     end
     
     protected
@@ -36,5 +36,20 @@ module Citygrid
       {:api_key => @api_key, :publisher => "acme"}
     end
     
-  end
+    def mashup(response)
+       case response.code
+         when 200
+           if response.is_a?(Hash)
+             Hashie::Mash.new(response)
+           else
+             if response.first.is_a?(Hash)
+               response.map{|item| Hashie::Mash.new(item)}
+             else
+               response
+             end
+           end
+         end
+       end
+     end
+    
 end
