@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<results queryid="" totalhits="1" lasthit="1" firsthit="1">
+  <!-- Copyright 2009 Citysearch -->
+  <uri>http://api.citysearch.com/search/locations?what=roots+coffee&amp;where=76180&amp;publisher=acme</uri>
+  <region type="postal_code">
+    <name>76180</name>
+    <latitude>32.86399</latitude>
+    <longitude>-97.215194</longitude>
+    <defaultradius>4.3600</defaultradius>
+  </region>
+  <location id="613027480">
+    <featured>false</featured>
+    <name>Roots Coffeehouse</name>
+    <address>
+      <street>9101 Boulevard 26</street>
+      <city>N Richland Hills</city>
+      <state>TX</state>
+      <postalcode>76180</postalcode>
+    </address>
+    <neighborhood/>
+    <latitude>32.849869</latitude>
+    <longitude>-97.193291</longitude>
+    <phonenumber>8175037344</phonenumber>
+    <rating/>
+    <profile>http://national.citysearch.com/profile/613027480/n_richland_hills_tx/roots_coffeehouse.html</profile>
+    <hasvideo>false</hasvideo>
+    <hasoffers>false</hasoffers>
+    <offers/>
+    <userreviewcount>0</userreviewcount>
+    <samplecategories>Coffeehouses</samplecategories>
+  </location>
+  <histogram name="Categories">
+    <item name="Coffeehouses" count="1">http://api.citysearch.com/search/locations?what=roots+coffee&amp;tag=1726&amp;where=76180&amp;publisher=acme</item>
+  </histogram>
+</results>

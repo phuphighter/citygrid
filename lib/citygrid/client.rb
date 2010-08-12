@@ -3,6 +3,7 @@ module Citygrid
   class Client
     include HTTParty
     base_uri "http://api2.citysearch.com"
+    format :xml
     
     attr_reader :api_key
                 
@@ -37,19 +38,19 @@ module Citygrid
     end
     
     def mashup(response)
-       case response.code
-         when 200
-           if response.is_a?(Hash)
-             Hashie::Mash.new(response)
-           else
-             if response.first.is_a?(Hash)
-               response.map{|item| Hashie::Mash.new(item)}
-             else
-               response
-             end
-           end
+      case response.code
+      when 200
+        if response.is_a?(Hash)
+          Hashie::Mash.new(response)
+        else
+         if response.first.is_a?(Hash)
+           response.map{|item| Hashie::Mash.new(item)}
+         else
+           response
          end
-       end
-     end
+        end
+      end
+    end
+  end
     
 end

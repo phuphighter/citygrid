@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<locations>
+  <!-- Copyright 2010 Citysearch -->
+  <location>
+    <id>613027480</id>
+    <reference_id>1</reference_id>
+    <display_ad>true</display_ad>
+    <infousa_id>695618793</infousa_id>
+    <name>Roots Coffeehouse</name>
+    <teaser/>
+    <address>
+      <street>9101 Boulevard 26</street>
+      <delivery_point/>
+      <city>N Richland Hills</city>
+      <state>TX</state>
+      <postal_code>76180</postal_code>
+      <cross_street/>
+      <latitude>32.849869</latitude>
+      <longitude>-97.193291</longitude>
+    </address>
+    <contact_info>
+      <display_phone>8175037344</display_phone>
+      <display_url/>
+    </contact_info>
+    <markets>
+      <market>Fort Worth, TX Metro</market>
+    </markets>
+    <neighborhoods/>
+    <urls>
+      <profile_url>http://fortworth.citysearch.com/profile/613027480/n_richland_hills_tx/roots_coffeehouse.html</profile_url>
+      <reviews_url>http://fortworth.citysearch.com/review/613027480</reviews_url>
+      <video_url/>
+      <website_url>http://fortworth.citysearch.com/profile/external/613027480/n_richland_hills_tx/roots_coffeehouse.html</website_url>
+      <menu_url/>
+      <reservation_url/>
+      <map_url>http://fortworth.citysearch.com/profile/map/613027480/n_richland_hills_tx/roots_coffeehouse.html</map_url>
+      <send_to_friend_url>http://fortworth.citysearch.com/profile/sendto/613027480/n_richland_hills_tx/roots_coffeehouse.html</send_to_friend_url>
+      <email_link>http://fortworth.citysearch.com/profile/email_business/613027480/n_richland_hills_tx/roots_coffeehouse.html</email_link>
+      <custom_link_1/>
+      <custom_link_2/>
+    </urls>
+    <customer_content>
+      <customer_message/>
+      <bullets/>
+      <customer_message_url/>
+    </customer_content>
+    <offers/>
+    <categories>
+      <category name="Coffeehouses" nameid="1726" parent="Restaurants" parentid="1722"/>
+    </categories>
+    <attributes/>
+    <business_hours/>
+    <parking/>
+    <tips/>
+    <images/>
+    <editorials/>
+    <reviews>
+      <overall_review_rating>NA</overall_review_rating>
+      <total_user_reviews/>
+      <total_user_reviews_shown/>
+    </reviews>
+  </location>
+</locations>
