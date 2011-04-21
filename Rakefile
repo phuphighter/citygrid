@@ -6,11 +6,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "citygrid"
-    gem.summary = %Q{Ruby wrapper for the CityGrid API}
-    gem.description = %Q{Ruby wrapper for the CityGrid API}
-    gem.email = "johnnyn@gmail.com"
-    gem.homepage = "http://github.com/phuphighter/citygrid"
-    gem.authors = ["Johnny Khai Nguyen"]
+    gem.summary = %Q{Ruby wrapper for the CityGrid API V2}
+    gem.description = %Q{Ruby wrapper for the CityGrid API V2}
+    gem.email = "johnnyn@gmail.com, jspooner@gmail.com"
+    gem.homepage = "https://github.com/jspooner/citygrid"
+    gem.authors = ["Johnny Khai Nguyen, Jonathan Spooner"]
     
     gem.add_dependency('httparty', '>= 0.5.0')
   end

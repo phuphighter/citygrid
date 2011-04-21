@@ -15,7 +15,7 @@ require 'citygrid'
 # Set the default allow_net_connect option--usually you'll want this off.
 # You don't usually want your test suite to make HTTP connections, do you?
 
-FakeWeb.allow_net_connect = false
+# FakeWeb.allow_net_connect = false
 
 class Test::Unit::TestCase
 end
