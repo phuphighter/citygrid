@@ -1,3 +1,14 @@
+# Why I Forked Citygrid
+
+To support their version 2 api.  http://docs.citygridmedia.com/display/citygridv2/CityGrid+APIs
+
+You can not run version 1 and 2 gems at the same time.  Why?  Well their documentation says their V1 API will be depreciated at some 
+point in time.
+
+
+
+
+
 # Citygrid
 
 This is a Ruby wrapper for the [CityGrid API](http://developer.citysearch.com/home).
